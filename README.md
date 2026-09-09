@@ -42,14 +42,14 @@ Précision importante: Si vous optez pour l'utilisation d'un module d'éclairage
 └── (-) -------------------------> [ Borne "Input -" (XY-J02) ]
 
 ##### 2. SIGNAL DE DÉCLENCHEMENT (Source d'alerte vers Relais):
-[Sirène Extérieure (LED) OU Module d'éclairage RTS (2401161)]
+[Sirène Extérieure (LED) ou Module d'éclairage RTS (2401161)]
 
 ├── Fil Rouge (Signal) -----------> [ Borne "Trigger signal" (XY-J02) ]
 
 └── Fil Noir (Masse / GND) -----> [ Borne "GND-Trigger" (XY-J02) ]
 
 ##### 3. SORTIE CONTACT SEC (Relais vers Transmetteur 4G GP4-WLTE):
-[ Module Relais XY-J02 ] --------------> [ Transmetteur 4G GP4-WLTE ]
+[ Module Relais XY-J02  -------------->  Transmetteur 4G GP4-WLTE ]
 
 ├── Borne "COM" (Commun) -------> [ Borne "GND" ]
 
