@@ -5,7 +5,9 @@ Tutoriel pour contourner l'arrêt de la 2G sur Somfy Protexiom grace à un modul
 Face à l'arrêt progressif des réseaux 2G qui rend les transmetteurs d'origine obsolètes et génère l'alerte « Pas de réseau » sur l'application, voici comment j'ai mis en place un système de secours autonome par SMS à moindre coût, en récupérant l'information d'alarme.
 Je précise que j'utilise un carte SIM Free et non un service payant comme 123-SMS.Net.
 
-Ce tuto s'adresse aux possesseurs d'une alarme protection 600 avec module 2G, car dans l'onglet "Réglages téléphonie filaire" le menu 123-SMS est absent. il faut être un peu bricoleur.
+Ce tuto s'adresse aux possesseurs d'une alarme protection 600 avec module 2G, car dans l'onglet "Réglages téléphonie filaire" le menu 123-SMS est absent.
+
+Il faut être un peu bricoleur.
 
 # Matériel utilisé:
 - Une centrale d'alarme Somfy Protexiom 600
