@@ -13,10 +13,8 @@ Un transmetteur 4G autonome à déclenchement sec GP4-WLTE avec carte SIM (Chois
 Principe du montage:
 
 La centrale n'ayant pas de sortie "rapport transmetteur" accessible directement sur sa carte principale, il faut récupérer l'information d'alerte en amont via l'un de ces deux moyens:
-
-Soit exploiter la LED d'une sirène extérieure en récupérant le signal directement sur son circuit de commande. Il faudra installer la sirène au sec car le transmetteur devra être à coté et alimenté par du courant continu vie le transformateur fournit.
-
-Soit utiliser un module d'éclairage RTS (référence principale : micro-module ON/OFF Somfy 2401161, également listé sous la référence fabricant ⁠SO2401161⁠).
+- Soit exploiter la LED d'une sirène extérieure en récupérant le signal directement sur son circuit de commande. Il faudra installer la sirène au sec car le transmetteur devra être à coté et alimenté par du courant continu vie le transformateur fournit.
+- Soit utiliser un module d'éclairage RTS (référence principale : micro-module ON/OFF Somfy 2401161, également listé sous la référence fabricant ⁠SO2401161⁠).
 Précision importante: Si vous optez pour l'utilisation d'un module d'éclairage, cela ne transmettra sur votre module 4G que les alarmes liées à l'intrusion (ce qui reste l'usage principal recherché). Dans mon cas j'ai acheté une sirène extérieure dont j'ai déconnecté la sirène et la led.
 Schéma et détails des branchements pour réaliser le câblage de manière propre et sécurisée:
 
