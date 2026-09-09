@@ -64,7 +64,7 @@ Dans le menu "Input Control" vous devez voir "Alarme_Maison1 (Connected) Activat
 
 # Résultat:
 - Dès que l'alarme se déclenche, le signal de la led s'active, fait coller le relais XY-J02 en mode P1.1 pendant 30 secondes, ce qui ferme le
-contact sec du transmetteur 4G et déclenche l'envoi immédiat du SMS d'alerte sur votre téléphone, le tout de manière parfaitement stable.  
+contact sec du transmetteur 4G et déclenche l'envoi immédiat du SMS d'alerte sur votre/vos téléphone(s), le tout de manière parfaitement stable.  
 - Contactez moi si besoin: protexiom600@free.fr
 
 Somfy Protexiom 600 / arrêt du réseau 2G / remplacement GSM 4G / transmetteur GSM / migration 2G vers 4G / solution alternative Somfy
