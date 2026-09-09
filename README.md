@@ -60,7 +60,7 @@ Précision importante: Si vous optez pour l'utilisation d'un module d'éclairage
 - Allez dans "Setting" puis "Input Control": Cliquez sur "Alarme_Maison1", sélectionnez "Connected" et cochez le bouton en haut à droite afin qu'il soit vert.
 
 Dans le menu "Input Control" vous devez voir "Alarme_Maison1 (Connected) Activate push".  
-- Manuel et spécifications du transmetteur: https://manuals.plus/ae/1005002484411405
+- Manuel et spécifications du transmetteur 4G: https://manuals.plus/ae/1005002484411405
 
 # <Résultat>
 - Dès que l'alarme se déclenche, le signal de la led s'active, fait coller le relais XY-J02 en mode P1.1 pendant 30 secondes, ce qui ferme le
