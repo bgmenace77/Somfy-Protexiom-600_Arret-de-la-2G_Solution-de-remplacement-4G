@@ -20,36 +20,32 @@ La centrale n'ayant pas de sortie "rapport transmetteur" accessible directement 
 Précision importante: Si vous optez pour l'utilisation d'un module d'éclairage, cela ne transmettra sur votre module 4G que les alarmes liées à l'intrusion (ce qui reste l'usage principal recherché).
 - Dans mon cas j'ai acheté une sirène extérieure dont j'ai déconnecté la sirène et la led.
 
-Schéma et détails des branchements pour réaliser le câblage de manière propre et sécurisée:
-
-Alimentez le relais XY-J02:
+# Schéma et détails des branchements pour réaliser le câblage de manière propre et sécurisée:
+- Alimentez le relais XY-J02:
 - Reliez une source d'alimentation continue (par exemple une alimentation 12V externe adaptée, ou bien soudez des fils pour récupérer l'alimentation des piles de la sirène extérieure) aux bornes "Input +" et "Input -" du module relais.
 - Reliez le fil de commande (signal LED vers le relais): Connectez le fil rouge de la LED sur la borne "Trigger" et le fil noir de la LED sur la borne "GND_Trigger" du relais (il faudra couper le fil au plus près de la led qui est reliée à la carte de la sirène).
 - Reliez la sortie sans potentiel (contact sec) du relais vers le transmetteur 4G: Utilisez 2 fils pour connecter la borne "COM" du relais sur le "GND" du transmetteur (au niveau des entrées digitales) et la borne "NO" (Normalement Ouvert) du relais sur l'entrée DI1 du transmetteur.
 - Lorsque le relais s'active, il ferme le contact sec entre COM et NO, ce qui déclenche instantanément l'envoi du SMS.
 
-Configuration du relais. Voici les paramètres exacts à appliquer sur le relais XY-J02:
+# Configuration du relais. Voici les paramètres exacts à appliquer sur le relais XY-J02:
 - Mode de fonctionnement: Choisir le mode P1.1 (le relais s'active sur impulsion pendant le temps défini et ignore les déclenchements répétés tant qu'il est actif, évitant les coupures intempestives).
-- Temporisation (Paramètre OP): Régler sur 030. (soit 30 secondes). Pourquoi 30 secondes? Cela permet de compenser parfaitement le décalage habituel (notamment le délai d'environ 15 secondes entre le déclenchement de la centrale et l'activation de la sirène extérieure), tout en garantissant un contact sec assez long pour que le transmetteur 4G ait le temps d'envoyer le SMS d'alerte.
-
+- Temporisation (Paramètre OP): Régler sur 030. (soit 30 secondes). Pourquoi 30 secondes? Cela permet de compenser parfaitement le décalage habituel (notamment le délai d'environ 15 secondes entre le déclenchement de la centrale et l'activation de la sirène extérieure), tout en garantissant un contact sec assez long pour que le transmetteur 4G ait le temps d'envoyer le SMS d'alerte.  
 Manuel et spécifications du relais temporisé XY-J02: https://ja-bots.com/wp-content/uploads/2022/06/XY-J02.pdf
 
-Transmetteur GP4-WLTE:
+# Transmetteur GP4-WLTE:
 - Paramétrez la SIM pour ne pas avoir de code SIM!!!! (j'ai utilisé un ancien iPad afin de supprimer le coee PIN).
 - Insérer la SIM au format Micro dans le transmetteur (attention la plupart des SIM actuelles sont au format Nano!). Le signal GSM est OK lorsque lorsque la led rouge clignote lentement.
 - Envoyez un SMS depuis votre portable vers le numéro de la carte SIM du transmetteur et tapez: SN0000RPO. Vous receverez alors une confirmation que votre numéroe de mobil est enregistré dans le transmetteur pour les entrées digitales. Vous pouvez ajouter jusqu'à 4 numéros en procédans de la même manieère avec d'autre ligne mobiles qui reçevrons les alertes d'alarmes.
 
-Paramétrage de l'application WLTE Control:
+# Paramétrage de l'application WLTE Control:
 - Téléchargez l'application dans le store Apple ou Android.
 - Allez dans "Setting" puis "Device Control": Faites un appui long sur "Channel1" puis changez le nom du Channel (par example: Alarme_Somfy), changez le nom de l'input (par example: Alarme_Maison).
-- Allez "Setting" puis "Input Control": Cliquez sur "Alarme_Maison1", séléectionnez "Connected" et cochez le bouton en hautr à droite afin qu'il soit vert. Dans le menu "Input Control" vous devez voir "Alarme_Maison1 (Connected) Activate push".
-
+- Allez "Setting" puis "Input Control": Cliquez sur "Alarme_Maison1", séléectionnez "Connected" et cochez le bouton en hautr à droite afin qu'il soit vert. Dans le menu "Input Control" vous devez voir "Alarme_Maison1 (Connected) Activate push".  
 Manuel et spécifications du transmetteur: https://manuals.plus/ae/1005002484411405
 
-Résultat:
+# Résultat:
 - Dès que l'alarme se déclenche, le signal de la led s'active, fait coller le relais XY-J02 en mode P1.1 pendant 30 secondes, ce qui ferme le
-contact sec du transmetteur 4G et déclenche l'envoi immédiat du SMS d'alerte sur votre téléphone, le tout de manière parfaitement stable.
-
+contact sec du transmetteur 4G et déclenche l'envoi immédiat du SMS d'alerte sur votre téléphone, le tout de manière parfaitement stable.  
 Contactez-moi si besoin: protexiom600@free.fr
 
 # Somfy Protexiom 600
