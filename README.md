@@ -35,7 +35,6 @@ Configuration du relais. Voici les paramètres exacts à appliquer sur le relais
 Manuel et spécifications du relais temporisé XY-J02: https://ja-bots.com/wp-content/uploads/2022/06/XY-J02.pdf
 
 Transmetteur GP4-WLTE:
-
 - Paramétrez la SIM pour ne pas avoir de code SIM!!!! (j'ai utilisé un ancien iPad afin de supprimer le coee PIN).
 - Insérer la SIM au format Micro dans le transmetteur (attention la plupart des SIM actuelles sont au format Nano!). Le signal GSM est OK lorsque lorsque la led rouge clignote lentement.
 - Envoyez un SMS depuis votre portable vers le numéro de la carte SIM du transmetteur et tapez: SN0000RPO. Vous receverez alors une confirmation que votre numéroe de mobil est enregistré dans le transmetteur pour les entrées digitales. Vous pouvez ajouter jusqu'à 4 numéros en procédans de la même manieère avec d'autre ligne mobiles qui reçevrons les alertes d'alarmes.
