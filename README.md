@@ -14,15 +14,15 @@ Il faut être un peu bricoleur.
 - Un module relais temporisé "XY-J02". Disponible sur Amazon: https://www.amazon.fr/temporis%C3%A9-d%C3%A9clencheur-interrupteur-temporisation-minutes/dp/B0FS6C89GJ?th=1)
 - Un transmetteur 4G autonome à déclenchement sec "GP4-WLTE avec carte SIM". Choisir la version "GP4-WLTE-EC" sur Aliexpress: https://fr.aliexpress.com/item/1005006284883131.html?gatewayAdapt=glo2fra#nav-specification). Cette version est compatible pour l'Europe et possède une batterie de secours.
 
-# Principe de montage:  
+## Principe de montage:  
 La centrale n'ayant pas de sortie "rapport transmetteur" accessible directement sur sa carte principale, il faut récupérer l'information d'alerte en amont via l'un de ces deux moyens:
 - Soit exploiter la LED d'une sirène extérieure en récupérant le signal directement sur son circuit de commande. Il faudra installer la sirène au sec car le transmetteur devra être à coté et alimenté par du courant continu vie le transformateur fournit.
 - Soit utiliser un module d'éclairage RTS (référence principale : micro-module ON/OFF Somfy 2401161, également listé sous la référence fabricant ⁠SO2401161⁠).
 Précision importante: Si vous optez pour l'utilisation d'un module d'éclairage, cela ne transmettra sur votre module 4G que les alarmes liées à l'intrusion (ce qui reste l'usage principal recherché).
 - Dans mon cas j'ai acheté une sirène extérieure dont j'ai déconnecté la sirène et la led.
 
-## -- Détails des branchements -- 
-# Relais XY-J02 et transmetteur 4G:
+# -- Détails des branchements -- 
+## Relais XY-J02 et transmetteur 4G:
 - Reliez une source d'alimentation continue aux bornes "Input +" et "Input -" du module relais. Par exemple utilisez une alimentation 12V externe adaptée, ou bien soudez des fils pour récupérer l'alimentation des piles depuis la sirène extérieure.
 - Reliez le fil de commande (signal LED vers le relais): Connectez le fil rouge de la LED sur la borne "Trigger" et le fil noir de la LED sur la borne "GND_Trigger" du relais (il faudra couper le fil au plus près de la led qui est reliée à la carte de la sirène).
 - Reliez la sortie sans potentiel (contact sec) du relais vers le transmetteur 4G: Utilisez 2 fils pour connecter la borne "COM" du relais sur le "GND" du transmetteur (au niveau des entrées digitales) et la borne "NO" (Normalement Ouvert) du relais sur l'entrée DI1 du transmetteur.
@@ -49,12 +49,12 @@ Précision importante: Si vous optez pour l'utilisation d'un module d'éclairage
 - ├── Borne "COM" (Commun) -------> [ Borne "GND" ]
 - └── Borne "NO" (Normal. Ouvert) --> [ Borne "DI1"]
 
-# Paramétarge du transmetteur GP4-WLTE:
+## Paramétarge du transmetteur GP4-WLTE:
 - Paramétrez la SIM pour ne pas avoir de code PIM !! j'ai utilisé un ancien iPad afin de supprimer le code PIN.
 - Insérer la SIM au format Micro dans le transmetteur (attention la plupart des SIM actuelles sont au format Nano!). Le signal GSM est OK lorsque la led rouge clignote lentement.
 - Envoyez un SMS depuis votre portable vers le numéro de la carte SIM du transmetteur et tapez: SN0000RPO. Vous recevrez quelques minutes plus tard une confirmation par SMS que votre numéro de mobile est enregistré dans le transmetteur pour les entrées digitales. Vous pouvez ajouter jusqu'à 4 numéros en procédant de la même manière avec d'autre ligne mobiles qui recevrons les alertes d'alarmes.
 
-# Paramétrage de l'application WLTE Control:
+## Paramétrage de l'application WLTE Control:
 - Téléchargez l'application dans le store Apple ou Android.
 - Allez dans "Setting" puis "Device Control": Faites un appui long sur "Channel1" puis changez le nom du Channel (par example: Alarme_Somfy), changez le nom de l'input (par example: Alarme_Maison).
 - Allez dans "Setting" puis "Input Control": Cliquez sur "Alarme_Maison1", sélectionnez "Connected" et cochez le bouton en haut à droite afin qu'il soit vert.
