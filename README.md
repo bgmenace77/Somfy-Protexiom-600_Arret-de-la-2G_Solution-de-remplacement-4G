@@ -30,7 +30,7 @@ Précision importante: Si vous optez pour l'utilisation d'un module d'éclairage
   Paramètres à appliquer pour configurer le relais XY-J02:
 - Mode de fonctionnement: Choisir le mode P1.1 (le relais s'active sur impulsion pendant le temps défini et ignore les déclenchements répétés tant qu'il est actif, évitant les coupures intempestives).
 - Temporisation (Paramètre OP): Régler sur 030. (soit 30 secondes). Pourquoi 30 secondes? Cela permet de compenser parfaitement le décalage habituel (notamment le délai d'environ 15 secondes entre le déclenchement de la centrale et l'activation de la sirène extérieure), tout en garantissant un contact sec assez long pour que le transmetteur 4G ait le temps d'envoyer le SMS d'alerte.  
-Manuel et spécifications du relais temporisé XY-J02: https://ja-bots.com/wp-content/uploads/2022/06/XY-J02.pdf
+- Manuel et spécifications du relais temporisé XY-J02: https://ja-bots.com/wp-content/uploads/2022/06/XY-J02.pdf
 
 # Transmetteur GP4-WLTE:
 - Paramétrez la SIM pour ne pas avoir de code SIM!!!! (j'ai utilisé un ancien iPad afin de supprimer le coee PIN).
