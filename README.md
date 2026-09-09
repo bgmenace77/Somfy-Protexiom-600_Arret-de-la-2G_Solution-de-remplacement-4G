@@ -2,6 +2,7 @@ Tutoriel pour contourner l'arrêt de la 2G sur Somfy Protexiom garce à un modul
 
 Face à l'arrêt progressif des réseaux 2G qui rend les transmetteurs d'origine obsolètes et génère l'alerte « Pas de réseau » sur l'application, voici comment j'ai mis en place un système de secours autonome par SMS à moindre coût, en récupérant l'information d'alarme.
 Je précise que j'utilise un carte SIM Free et non un service payant comme 123-SMS.Net.
+
 Ce tuto s'adresse aux possesseurs d'une alarme protection 600 avec module 2G, car dans l'onglet "Réglages téléphonie filaire" le menu 123-SMS est absent. il faut être un peu bricoleur.
 
 Matériel utilisé:
@@ -17,9 +18,10 @@ La centrale n'ayant pas de sortie "rapport transmetteur" accessible directement 
 Précision importante: Si vous optez pour l'utilisation d'un module d'éclairage, cela ne transmettra sur votre module 4G que les alarmes liées à l'intrusion (ce qui reste l'usage principal recherché). Dans mon cas j'ai acheté une sirène extérieure dont j'ai déconnecté la sirène et la led.
 Schéma et détails des branchements pour réaliser le câblage de manière propre et sécurisée:
 
-Alimentez le relais XY-J02: Reliez une source d'alimentation continue (par exemple une alimentation 12V externe adaptée, ou bien soudez des fils pour récupérer l'alimentation des piles de la sirène extérieure) aux bornes "Input +" et "Input -" du module relais.
-Reliez le fil de commande (signal LED vers le relais): Connectez le fil rouge de la LED sur la borne "Trigger" et le fil noir de la LED sur la borne "GND_Trigger" du relais (il faudra couper le fil au plus près de la led qui est reliée à la carte de la sirène).
-Reliez la sortie sans potentiel (contact sec) du relais vers le transmetteur 4G: Utilisez 2 fils pour connecter la borne "COM" du relais sur le "GND" du transmetteur (au niveau des entrées digitales) et la borne "NO" (Normalement Ouvert) du relais sur l'entrée DI1 du transmetteur.
+Alimentez le relais XY-J02:
+- Reliez une source d'alimentation continue (par exemple une alimentation 12V externe adaptée, ou bien soudez des fils pour récupérer l'alimentation des piles de la sirène extérieure) aux bornes "Input +" et "Input -" du module relais.
+- Reliez le fil de commande (signal LED vers le relais): Connectez le fil rouge de la LED sur la borne "Trigger" et le fil noir de la LED sur la borne "GND_Trigger" du relais (il faudra couper le fil au plus près de la led qui est reliée à la carte de la sirène).
+- Reliez la sortie sans potentiel (contact sec) du relais vers le transmetteur 4G: Utilisez 2 fils pour connecter la borne "COM" du relais sur le "GND" du transmetteur (au niveau des entrées digitales) et la borne "NO" (Normalement Ouvert) du relais sur l'entrée DI1 du transmetteur.
 Lorsque le relais s'active, il ferme le contact sec entre COM et NO, ce qui déclenche instantanément l'envoi du SMS.
 Configuration du relais: Voici les paramètres exacts à appliquer sur le relais XY-J02
 
