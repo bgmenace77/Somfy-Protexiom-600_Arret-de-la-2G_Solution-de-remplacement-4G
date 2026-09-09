@@ -21,7 +21,7 @@ La centrale n'ayant pas de sortie "rapport transmetteur" accessible directement 
 Précision importante: Si vous optez pour l'utilisation d'un module d'éclairage, cela ne transmettra sur votre module 4G que les alarmes liées à l'intrusion (ce qui reste l'usage principal recherché).
 - Dans mon cas j'ai acheté une sirène extérieure dont j'ai déconnecté la sirène et la led.
 
-# -- Détails des branchements -- 
+## -- Détails des branchements -- 
 # Relais XY-J02 et transmetteur 4G:
 - Reliez une source d'alimentation continue aux bornes "Input +" et "Input -" du module relais. Par exemple utilisez une alimentation 12V externe adaptée, ou bien soudez des fils pour récupérer l'alimentation des piles depuis la sirène extérieure.
 - Reliez le fil de commande (signal LED vers le relais): Connectez le fil rouge de la LED sur la borne "Trigger" et le fil noir de la LED sur la borne "GND_Trigger" du relais (il faudra couper le fil au plus près de la led qui est reliée à la carte de la sirène).
