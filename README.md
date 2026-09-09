@@ -49,7 +49,7 @@ Précision importante: Si vous optez pour l'utilisation d'un module d'éclairage
 - ├── Borne "COM" (Commun) -------> [ Borne "GND" ]
 - └── Borne "NO" (Normal. Ouvert) --> [ Borne "DI1"]
 
-# Transmetteur GP4-WLTE:
+# Paramétarge du transmetteur GP4-WLTE:
 - Paramétrez la SIM pour ne pas avoir de code PIM !! j'ai utilisé un ancien iPad afin de supprimer le code PIN.
 - Insérer la SIM au format Micro dans le transmetteur (attention la plupart des SIM actuelles sont au format Nano!). Le signal GSM est OK lorsque la led rouge clignote lentement.
 - Envoyez un SMS depuis votre portable vers le numéro de la carte SIM du transmetteur et tapez: SN0000RPO. Vous recevrez quelques minutes plus tard une confirmation par SMS que votre numéro de mobile est enregistré dans le transmetteur pour les entrées digitales. Vous pouvez ajouter jusqu'à 4 numéros en procédant de la même manière avec d'autre ligne mobiles qui recevrons les alertes d'alarmes.
