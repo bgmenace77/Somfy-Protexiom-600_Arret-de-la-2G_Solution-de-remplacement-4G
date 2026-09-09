@@ -22,12 +22,12 @@ Précision importante: Si vous optez pour l'utilisation d'un module d'éclairage
 - Dans mon cas j'ai acheté une sirène extérieure dont j'ai déconnecté la sirène et la led.
 
 # Schéma et détails des branchements pour réaliser le câblage de manière propre et sécurisée:  
-Alimentez le relais XY-J02:
+# Relais XY-J02:
 - Reliez une source d'alimentation continue (par exemple une alimentation 12V externe adaptée, ou bien soudez des fils pour récupérer l'alimentation des piles de la sirène extérieure) aux bornes "Input +" et "Input -" du module relais.
 - Reliez le fil de commande (signal LED vers le relais): Connectez le fil rouge de la LED sur la borne "Trigger" et le fil noir de la LED sur la borne "GND_Trigger" du relais (il faudra couper le fil au plus près de la led qui est reliée à la carte de la sirène).
 - Reliez la sortie sans potentiel (contact sec) du relais vers le transmetteur 4G: Utilisez 2 fils pour connecter la borne "COM" du relais sur le "GND" du transmetteur (au niveau des entrées digitales) et la borne "NO" (Normalement Ouvert) du relais sur l'entrée DI1 du transmetteur.
 - Lorsque le relais s'active, il ferme le contact sec entre COM et NO, ce qui déclenche instantanément l'envoi du SMS.  
-  Voici les paramètres à appliquer pour configurer le relais XY-J02:
+  Paramètres à appliquer pour configurer le relais XY-J02:
 - Mode de fonctionnement: Choisir le mode P1.1 (le relais s'active sur impulsion pendant le temps défini et ignore les déclenchements répétés tant qu'il est actif, évitant les coupures intempestives).
 - Temporisation (Paramètre OP): Régler sur 030. (soit 30 secondes). Pourquoi 30 secondes? Cela permet de compenser parfaitement le décalage habituel (notamment le délai d'environ 15 secondes entre le déclenchement de la centrale et l'activation de la sirène extérieure), tout en garantissant un contact sec assez long pour que le transmetteur 4G ait le temps d'envoyer le SMS d'alerte.  
 Manuel et spécifications du relais temporisé XY-J02: https://ja-bots.com/wp-content/uploads/2022/06/XY-J02.pdf
