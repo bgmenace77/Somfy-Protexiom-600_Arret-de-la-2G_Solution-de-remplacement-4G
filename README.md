@@ -21,8 +21,8 @@ La centrale n'ayant pas de sortie "rapport transmetteur" accessible directement 
 Précision importante: Si vous optez pour l'utilisation d'un module d'éclairage, cela ne transmettra sur votre module 4G que les alarmes liées à l'intrusion (ce qui reste l'usage principal recherché).
 - Dans mon cas j'ai acheté une sirène extérieure dont j'ai déconnecté la sirène et la led.
 
-# Schéma et détails des branchements pour réaliser le câblage de manière propre et sécurisée:  
-# Relais XY-J02:
+# Détails des branchements pour réaliser le câblage de manière propre et sécurisée:  
+# Relais XY-J02 et transmetteur 4G:
 - Reliez une source d'alimentation continue (par exemple une alimentation 12V externe adaptée, ou bien soudez des fils pour récupérer l'alimentation des piles de la sirène extérieure) aux bornes "Input +" et "Input -" du module relais.
 - Reliez le fil de commande (signal LED vers le relais): Connectez le fil rouge de la LED sur la borne "Trigger" et le fil noir de la LED sur la borne "GND_Trigger" du relais (il faudra couper le fil au plus près de la led qui est reliée à la carte de la sirène).
 - Reliez la sortie sans potentiel (contact sec) du relais vers le transmetteur 4G: Utilisez 2 fils pour connecter la borne "COM" du relais sur le "GND" du transmetteur (au niveau des entrées digitales) et la borne "NO" (Normalement Ouvert) du relais sur l'entrée DI1 du transmetteur.
@@ -31,6 +31,29 @@ Précision importante: Si vous optez pour l'utilisation d'un module d'éclairage
 - Mode de fonctionnement: Choisir le mode P1.1 (le relais s'active sur impulsion pendant le temps défini et ignore les déclenchements répétés tant qu'il est actif, évitant les coupures intempestives).
 - Temporisation (Paramètre OP): Régler sur 030. (soit 30 secondes). Pourquoi 30 secondes? Cela permet de compenser parfaitement le décalage habituel (notamment le délai d'environ 15 secondes entre le déclenchement de la centrale et l'activation de la sirène extérieure), tout en garantissant un contact sec assez long pour que le transmetteur 4G ait le temps d'envoyer le SMS d'alerte.  
 - Manuel et spécifications du relais temporisé XY-J02: https://ja-bots.com/wp-content/uploads/2022/06/XY-J02.pdf
+
+# Schéma de principe:
+1. ALIMENTATION DU RELAIS (XY-J02)
+========================================================================
+[ Alimentation 12V Externe ]
+ ├── (+) ------------------------> [ Borne "Input +" (XY-J02) ]
+ └── (-) ------------------------> [ Borne "Input -" (XY-J02) ]
+
+
+========================================================================
+2. SIGNAL DE DÉCLENCHEMENT (Source d'alerte vers Relais)
+========================================================================
+[ Sirène Extérieure (LED) OU Module d'éclairage RTS (2401161) ]
+ ├── Fil Rouge (Signal) ---------> [ Borne "Trigger signal" (XY-J02) ]
+ └── Fil Noir (Masse / GND) -----> [ Borne "GND trigger" (XY-J02) ]
+
+
+========================================================================
+3. SORTIE CONTACT SEC (Relais vers Transmetteur 4G GP4-WLTE)
+========================================================================
+[ Module Relais XY-J02 ]
+ ├── Borne "COM" (Commun) -------> [ Borne "GND" (Transmetteur 4G) ]
+ └── Borne "NO" (Normal. Ouvert) -> [ Borne "DI1" (Transmetteur 4G) ]
 
 # Transmetteur GP4-WLTE:
 - Paramétrez la SIM pour ne pas avoir de code SIM!!!! (j'ai utilisé un ancien iPad afin de supprimer le coee PIN).
