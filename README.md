@@ -44,7 +44,7 @@ Précision importante: Si vous optez pour l'utilisation d'un module d'éclairage
 - └── Fil Noir (Masse / GND) -----> [ Borne "GND trigger" (XY-J02) ]
 
 3. SORTIE CONTACT SEC (Relais vers Transmetteur 4G GP4-WLTE)
-- [ Module Relais XY-J02 ] -------------> [ Transmetteur 4G GP4-WLTE ]
+- [ Module Relais XY-J02 ] --------------> [ Transmetteur 4G GP4-WLTE ]
 - ├── Borne "COM" (Commun) -------> [ Borne "GND" ]
 - └── Borne "NO" (Normal. Ouvert) --> [ Borne "DI1"]
 
