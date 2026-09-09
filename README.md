@@ -16,8 +16,7 @@ La centrale n'ayant pas de sortie "rapport transmetteur" accessible directement 
 - Soit exploiter la LED d'une sirène extérieure en récupérant le signal directement sur son circuit de commande. Il faudra installer la sirène au sec car le transmetteur devra être à coté et alimenté par du courant continu vie le transformateur fournit.
 - Soit utiliser un module d'éclairage RTS (référence principale : micro-module ON/OFF Somfy 2401161, également listé sous la référence fabricant ⁠SO2401161⁠).
 Précision importante: Si vous optez pour l'utilisation d'un module d'éclairage, cela ne transmettra sur votre module 4G que les alarmes liées à l'intrusion (ce qui reste l'usage principal recherché).
-
-Dans mon cas j'ai acheté une sirène extérieure dont j'ai déconnecté la sirène et la led.
+- Dans mon cas j'ai acheté une sirène extérieure dont j'ai déconnecté la sirène et la led.
 
 Schéma et détails des branchements pour réaliser le câblage de manière propre et sécurisée:
 
@@ -25,8 +24,7 @@ Alimentez le relais XY-J02:
 - Reliez une source d'alimentation continue (par exemple une alimentation 12V externe adaptée, ou bien soudez des fils pour récupérer l'alimentation des piles de la sirène extérieure) aux bornes "Input +" et "Input -" du module relais.
 - Reliez le fil de commande (signal LED vers le relais): Connectez le fil rouge de la LED sur la borne "Trigger" et le fil noir de la LED sur la borne "GND_Trigger" du relais (il faudra couper le fil au plus près de la led qui est reliée à la carte de la sirène).
 - Reliez la sortie sans potentiel (contact sec) du relais vers le transmetteur 4G: Utilisez 2 fils pour connecter la borne "COM" du relais sur le "GND" du transmetteur (au niveau des entrées digitales) et la borne "NO" (Normalement Ouvert) du relais sur l'entrée DI1 du transmetteur.
-
-Lorsque le relais s'active, il ferme le contact sec entre COM et NO, ce qui déclenche instantanément l'envoi du SMS.
+- Lorsque le relais s'active, il ferme le contact sec entre COM et NO, ce qui déclenche instantanément l'envoi du SMS.
 
 Configuration du relais. Voici les paramètres exacts à appliquer sur le relais XY-J02:
 - Mode de fonctionnement: Choisir le mode P1.1 (le relais s'active sur impulsion pendant le temps défini et ignore les déclenchements répétés tant qu'il est actif, évitant les coupures intempestives).
@@ -47,8 +45,7 @@ Paramétrage de l'application WLTE Control:
 Manuel et spécifications du transmetteur: https://manuals.plus/ae/1005002484411405
 
 Résultat:
-
-Dès que l'alarme se déclenche, le signal de la led s'active, fait coller le relais XY-J02 en mode P1.1 pendant 30 secondes, ce qui ferme le
+- Dès que l'alarme se déclenche, le signal de la led s'active, fait coller le relais XY-J02 en mode P1.1 pendant 30 secondes, ce qui ferme le
 contact sec du transmetteur 4G et déclenche l'envoi immédiat du SMS d'alerte sur votre téléphone, le tout de manière parfaitement stable.
 
 Contactez-moi si besoin: protexiom600@free.fr
