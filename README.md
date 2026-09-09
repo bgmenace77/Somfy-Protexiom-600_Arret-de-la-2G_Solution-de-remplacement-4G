@@ -34,14 +34,14 @@ Précision importante: Si vous optez pour l'utilisation d'un module d'éclairage
 - Manuel et spécifications du relais temporisé: https://ja-bots.com/wp-content/uploads/2022/06/XY-J02.pdf
 
 # <Schéma de principe>
-### 1. ALIMENTATION DU RELAIS (XY-J02):
+#### 1. ALIMENTATION DU RELAIS (XY-J02):
  [ Alimentation 12V Externe ]
 
 ├── (+) ------------------------> [ Borne "Input +" (XY-J02) ]
 
 └── (-) -------------------------> [ Borne "Input -" (XY-J02) ]
 
-2. SIGNAL DE DÉCLENCHEMENT (Source d'alerte vers Relais):
+#### 2. SIGNAL DE DÉCLENCHEMENT (Source d'alerte vers Relais):
 
 [Sirène Extérieure (LED) OU Module d'éclairage RTS (2401161)]
 
@@ -49,7 +49,7 @@ Précision importante: Si vous optez pour l'utilisation d'un module d'éclairage
 
 └── Fil Noir (Masse / GND) -----> [ Borne "GND-Trigger" (XY-J02) ]
 
-3. SORTIE CONTACT SEC (Relais vers Transmetteur 4G GP4-WLTE):
+#### 3. SORTIE CONTACT SEC (Relais vers Transmetteur 4G GP4-WLTE):
 
 [ Module Relais XY-J02 ] --------------> [ Transmetteur 4G GP4-WLTE ]
 
