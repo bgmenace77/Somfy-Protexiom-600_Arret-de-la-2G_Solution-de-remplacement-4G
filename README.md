@@ -41,12 +41,12 @@ Précision importante: Si vous optez pour l'utilisation d'un module d'éclairage
 - Téléchargez l'application dans le store Apple ou Android.
 - Allez dans "Setting" puis "Device Control": Faites un appui long sur "Channel1" puis changez le nom du Channel (par example: Alarme_Somfy), changez le nom de l'input (par example: Alarme_Maison).
 - Allez "Setting" puis "Input Control": Cliquez sur "Alarme_Maison1", séléectionnez "Connected" et cochez le bouton en hautr à droite afin qu'il soit vert. Dans le menu "Input Control" vous devez voir "Alarme_Maison1 (Connected) Activate push".  
-Manuel et spécifications du transmetteur: https://manuals.plus/ae/1005002484411405
+- Manuel et spécifications du transmetteur: https://manuals.plus/ae/1005002484411405
 
 # Résultat:
 - Dès que l'alarme se déclenche, le signal de la led s'active, fait coller le relais XY-J02 en mode P1.1 pendant 30 secondes, ce qui ferme le
 contact sec du transmetteur 4G et déclenche l'envoi immédiat du SMS d'alerte sur votre téléphone, le tout de manière parfaitement stable.  
-Contactez-moi si besoin: protexiom600@free.fr
+- Contactez-moi si besoin: protexiom600@free.fr
 
 # Somfy Protexiom 600
 # arrêt du réseau 2G
