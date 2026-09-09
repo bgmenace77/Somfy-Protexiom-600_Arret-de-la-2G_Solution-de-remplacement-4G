@@ -64,9 +64,4 @@ Précision importante: Si vous optez pour l'utilisation d'un module d'éclairage
 contact sec du transmetteur 4G et déclenche l'envoi immédiat du SMS d'alerte sur votre téléphone, le tout de manière parfaitement stable.  
 - Contactez-moi si besoin: protexiom600@free.fr
 
-# Somfy Protexiom 600
-# arrêt du réseau 2G
-# remplacement GSM 4G
-# transmetteur GSM
-# migration 2G vers 4G
-# solution alternative Somfy
+Somfy Protexiom 600 / arrêt du réseau 2G / remplacement GSM 4G / transmetteur GSM / migration 2G vers 4G / solution alternative Somfy
