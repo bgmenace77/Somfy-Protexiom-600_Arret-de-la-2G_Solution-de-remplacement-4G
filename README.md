@@ -56,7 +56,7 @@ Précision importante: Si vous optez pour l'utilisation d'un module d'éclairage
 # Paramétrage de l'application WLTE Control:
 - Téléchargez l'application dans le store Apple ou Android.
 - Allez dans "Setting" puis "Device Control": Faites un appui long sur "Channel1" puis changez le nom du Channel (par example: Alarme_Somfy), changez le nom de l'input (par example: Alarme_Maison).
-- Allez "Setting" puis "Input Control": Cliquez sur "Alarme_Maison1", séléectionnez "Connected" et cochez le bouton en hautr à droite afin qu'il soit vert. Dans le menu "Input Control" vous devez voir "Alarme_Maison1 (Connected) Activate push".  
+- Allez dans "Setting" puis "Input Control": Cliquez sur "Alarme_Maison1", sélectionnez "Connected" et cochez le bouton en haut à droite afin qu'il soit vert. Dans le menu "Input Control" vous devez voir "Alarme_Maison1 (Connected) Activate push".  
 - Manuel et spécifications du transmetteur: https://manuals.plus/ae/1005002484411405
 
 # Résultat:
