@@ -1,4 +1,4 @@
-Tutoriel pour contourner l'arrêt de la 2G sur Somfy Protexiom garce à un module relais 4G (GP4-WLTE):
+Tutoriel pour contourner l'arrêt de la 2G sur Somfy Protexiom grace à un module relais 4G (GP4-WLTE):
 
 Face à l'arrêt progressif des réseaux 2G qui rend les transmetteurs d'origine obsolètes et génère l'alerte « Pas de réseau » sur l'application, voici comment j'ai mis en place un système de secours autonome par SMS à moindre coût, en récupérant l'information d'alarme.
 Je précise que j'utilise un carte SIM Free et non un service payant comme 123-SMS.Net.
@@ -49,3 +49,10 @@ Résultat:
 contact sec du transmetteur 4G et déclenche l'envoi immédiat du SMS d'alerte sur votre téléphone, le tout de manière parfaitement stable.
 
 Contactez-moi si besoin: protexiom600@free.fr
+
+# Somfy Protexiom 600
+# arrêt du réseau 2G
+# remplacement GSM 4G
+# transmetteur GSM
+# migration 2G vers 4G
+# solution alternative Somfy
