@@ -9,7 +9,7 @@ Ce tuto s'adresse aux possesseurs d'une alarme protection 600 avec module 2G, ca
 
 Il faut être un peu bricoleur.
 
-# Matériel utilisé:
+# <Matériel utilisé>
 - Une centrale d'alarme Somfy Protexiom 600
 - Un module relais temporisé "XY-J02". Disponible sur Amazon: https://www.amazon.fr/temporis%C3%A9-d%C3%A9clencheur-interrupteur-temporisation-minutes/dp/B0FS6C89GJ?th=1)
 - Un transmetteur 4G autonome à déclenchement sec "GP4-WLTE avec carte SIM". Choisir la version "GP4-WLTE-EC" sur Aliexpress: https://fr.aliexpress.com/item/1005006284883131.html?gatewayAdapt=glo2fra#nav-specification). Cette version est compatible pour l'Europe et possède une batterie de secours.
@@ -21,7 +21,7 @@ La centrale n'ayant pas de sortie "rapport transmetteur" accessible directement 
 Précision importante: Si vous optez pour l'utilisation d'un module d'éclairage, cela ne transmettra sur votre module 4G que les alarmes liées à l'intrusion (ce qui reste l'usage principal recherché).
 - Dans mon cas j'ai acheté une sirène extérieure dont j'ai déconnecté la sirène et la led.
 
-# Détails des branchements
+# <Détails des branchements>
 ## Relais XY-J02 et transmetteur 4G:
 - Reliez une source d'alimentation continue aux bornes "Input +" et "Input -" du module relais. Par exemple utilisez une alimentation 12V externe adaptée, ou bien soudez des fils pour récupérer l'alimentation des piles depuis la sirène extérieure.
 - Reliez le fil de commande (signal LED vers le relais): Connectez le fil rouge de la LED sur la borne "Trigger" et le fil noir de la LED sur la borne "GND_Trigger" du relais (il faudra couper le fil au plus près de la led qui est reliée à la carte de la sirène).
@@ -33,7 +33,7 @@ Précision importante: Si vous optez pour l'utilisation d'un module d'éclairage
 
 - Manuel et spécifications du relais temporisé XY-J02: https://ja-bots.com/wp-content/uploads/2022/06/XY-J02.pdf
 
-# -- Schéma de principe --
+# <Schéma de principe>
 1. ALIMENTATION DU RELAIS (XY-J02):
 - [ Alimentation 12V Externe ]
 - ├── (+) ------------------------> [ Borne "Input +" (XY-J02) ]
@@ -62,7 +62,7 @@ Précision importante: Si vous optez pour l'utilisation d'un module d'éclairage
 Dans le menu "Input Control" vous devez voir "Alarme_Maison1 (Connected) Activate push".  
 - Manuel et spécifications du transmetteur: https://manuals.plus/ae/1005002484411405
 
-# Résultat:
+# <Résultat>
 - Dès que l'alarme se déclenche, le signal de la led s'active, fait coller le relais XY-J02 en mode P1.1 pendant 30 secondes, ce qui ferme le
 contact sec du transmetteur 4G et déclenche l'envoi immédiat du SMS d'alerte sur votre/vos téléphone(s), le tout de manière parfaitement stable.  
 - Contactez moi si besoin: protexiom600@free.fr
