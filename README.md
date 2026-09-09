@@ -35,11 +35,13 @@ Précision importante: Si vous optez pour l'utilisation d'un module d'éclairage
 
 # <Schéma de principe>
 1. ALIMENTATION DU RELAIS (XY-J02):
-- [ Alimentation 12V Externe ]
-- ├── (+) ------------------------> [ Borne "Input +" (XY-J02) ]
-- └── (-) -------------------------> [ Borne "Input -" (XY-J02) ]
+ [ Alimentation 12V Externe ]
 
-2. SIGNAL DE DÉCLENCHEMENT (Source d'alerte vers Relais):
+├── (+) ------------------------> [ Borne "Input +" (XY-J02) ]
+
+└── (-) -------------------------> [ Borne "Input -" (XY-J02) ]
+
+3. SIGNAL DE DÉCLENCHEMENT (Source d'alerte vers Relais):
 - [Sirène Extérieure (LED) OU Module d'éclairage RTS (2401161)]
 - ├── Fil Rouge (Signal) -----------> [ Borne "Trigger signal" (XY-J02) ]
 - └── Fil Noir (Masse / GND) -----> [ Borne "GND-Trigger" (XY-J02) ]
