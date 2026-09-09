@@ -23,7 +23,7 @@ Précision importante: Si vous optez pour l'utilisation d'un module d'éclairage
 
 # <Détails des branchements>
 ## Relais XY-J02 et transmetteur 4G:
-- Reliez une source d'alimentation continue aux bornes "Input +" et "Input -" du module relais. Par exemple utilisez une alimentation 12V externe adaptée, ou bien soudez des fils pour récupérer l'alimentation des piles depuis la sirène extérieure.
+- Reliez une source d'alimentation continue aux bornes "Input +" et "Input -" du module relais. Par exemple utilisez une alimentation Micro-USB 5V externe adaptée, ou bien soudez des fils pour récupérer l'alimentation 6V des piles depuis la sirène extérieure.
 - Reliez le fil de commande (signal LED vers le relais): Connectez le fil rouge de la LED sur la borne "Trigger" et le fil noir de la LED sur la borne "GND_Trigger" du relais (il faudra couper le fil au plus près de la led qui est reliée à la carte de la sirène).
 - Reliez la sortie sans potentiel (contact sec) du relais vers le transmetteur 4G: Utilisez 2 fils pour connecter la borne "COM" du relais sur le "GND" du transmetteur (au niveau des entrées digitales) et la borne "NO" (Normalement Ouvert) du relais sur l'entrée DI1 du transmetteur.
 - Lorsque le relais s'active, il ferme le contact sec entre COM et NO, ce qui déclenche instantanément l'envoi du SMS.  
@@ -35,7 +35,7 @@ Précision importante: Si vous optez pour l'utilisation d'un module d'éclairage
 
 # <Schéma de principe>
 ##### 1. ALIMENTATION DU RELAIS (XY-J02):
- [ Alimentation 12V Externe ]
+ [ Alimentation 5V externe USB ou interne 6V ]
 
 ├── (+) ------------------------> [ Borne "Input +" (XY-J02) ]
 
