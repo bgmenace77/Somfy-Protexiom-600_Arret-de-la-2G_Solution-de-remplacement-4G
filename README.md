@@ -51,13 +51,13 @@ Précision importante: Si vous optez pour l'utilisation d'un module d'éclairage
 
 # Transmetteur GP4-WLTE:
 - Paramétrez la SIM pour ne pas avoir de code PIM !! j'ai utilisé un ancien iPad afin de supprimer le code PIN.
-- Insérer la SIM au format Micro dans le transmetteur (attention la plupart des SIM actuelles sont au format Nano!). Le signal GSM est OK lorsque lorsque la led rouge clignote lentement.
-- Envoyez un SMS depuis votre portable vers le numéro de la carte SIM du transmetteur et tapez: SN0000RPO. Vous recevrez quelques minutes plus tard une confirmation par SMS que votre numéro de mobile est enregistré dans le transmetteur pour les entrées digitales. Vous pouvez ajouter jusqu'à 4 numéros en procédant de la même manieère avec d'autre ligne mobiles qui recevrons les alertes d'alarmes.
+- Insérer la SIM au format Micro dans le transmetteur (attention la plupart des SIM actuelles sont au format Nano!). Le signal GSM est OK lorsque la led rouge clignote lentement.
+- Envoyez un SMS depuis votre portable vers le numéro de la carte SIM du transmetteur et tapez: SN0000RPO. Vous recevrez quelques minutes plus tard une confirmation par SMS que votre numéro de mobile est enregistré dans le transmetteur pour les entrées digitales. Vous pouvez ajouter jusqu'à 4 numéros en procédant de la même manière avec d'autre ligne mobiles qui recevrons les alertes d'alarmes.
 
 # Paramétrage de l'application WLTE Control:
 - Téléchargez l'application dans le store Apple ou Android.
 - Allez dans "Setting" puis "Device Control": Faites un appui long sur "Channel1" puis changez le nom du Channel (par example: Alarme_Somfy), changez le nom de l'input (par example: Alarme_Maison).
-- Allez dans "Setting" puis "Input Control": Cliquez sur "Alarme_Maison1", sélectionez "Connected" et cochez le bouton en haut à droite afin qu'il soit vert.
+- Allez dans "Setting" puis "Input Control": Cliquez sur "Alarme_Maison1", sélectionnez "Connected" et cochez le bouton en haut à droite afin qu'il soit vert.
 
 Dans le menu "Input Control" vous devez voir "Alarme_Maison1 (Connected) Activate push".  
 - Manuel et spécifications du transmetteur: https://manuals.plus/ae/1005002484411405
