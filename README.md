@@ -10,7 +10,6 @@ Matériel utilisé:
 - Un transmetteur 4G autonome à déclenchement sec GP4-WLTE avec carte SIM (Choisir la version GP4-WLTE-EC sur Aliexpress: https://fr.aliexpress.com/item/1005006284883131.html?gatewayAdapt=glo2fra#nav-specification)
 
 Principe du montage:
-
 La centrale n'ayant pas de sortie "rapport transmetteur" accessible directement sur sa carte principale, il faut récupérer l'information d'alerte en amont via l'un de ces deux moyens:
 - Soit exploiter la LED d'une sirène extérieure en récupérant le signal directement sur son circuit de commande. Il faudra installer la sirène au sec car le transmetteur devra être à coté et alimenté par du courant continu vie le transformateur fournit.
 - Soit utiliser un module d'éclairage RTS (référence principale : micro-module ON/OFF Somfy 2401161, également listé sous la référence fabricant ⁠SO2401161⁠).
