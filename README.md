@@ -23,7 +23,7 @@ Précision importante: Si vous optez pour l'utilisation d'un module d'éclairage
 
 # Détails des branchements pour réaliser le câblage de manière propre et sécurisée:  
 # Relais XY-J02 et transmetteur 4G:
-- Reliez une source d'alimentation continue (par exemple une alimentation 12V externe adaptée, ou bien soudez des fils pour récupérer l'alimentation des piles de la sirène extérieure) aux bornes "Input +" et "Input -" du module relais.
+- Reliez une source d'alimentation continue aux bornes "Input +" et "Input -" du module relais. Par exemple utilisez une alimentation 12V externe adaptée, ou bien soudez des fils pour récupérer l'alimentation des piles depuis la sirène extérieure.
 - Reliez le fil de commande (signal LED vers le relais): Connectez le fil rouge de la LED sur la borne "Trigger" et le fil noir de la LED sur la borne "GND_Trigger" du relais (il faudra couper le fil au plus près de la led qui est reliée à la carte de la sirène).
 - Reliez la sortie sans potentiel (contact sec) du relais vers le transmetteur 4G: Utilisez 2 fils pour connecter la borne "COM" du relais sur le "GND" du transmetteur (au niveau des entrées digitales) et la borne "NO" (Normalement Ouvert) du relais sur l'entrée DI1 du transmetteur.
 - Lorsque le relais s'active, il ferme le contact sec entre COM et NO, ce qui déclenche instantanément l'envoi du SMS.  
@@ -42,7 +42,7 @@ Précision importante: Si vous optez pour l'utilisation d'un module d'éclairage
 2. SIGNAL DE DÉCLENCHEMENT (Source d'alerte vers Relais):
 - [Sirène Extérieure (LED) OU Module d'éclairage RTS (2401161)]
 - ├── Fil Rouge (Signal) -----------> [ Borne "Trigger signal" (XY-J02) ]
-- └── Fil Noir (Masse / GND) -----> [ Borne "GND trigger" (XY-J02) ]
+- └── Fil Noir (Masse / GND) -----> [ Borne "GND-Trigger" (XY-J02) ]
 
 3. SORTIE CONTACT SEC (Relais vers Transmetteur 4G GP4-WLTE):
 - [ Module Relais XY-J02 ] --------------> [ Transmetteur 4G GP4-WLTE ]
@@ -50,14 +50,14 @@ Précision importante: Si vous optez pour l'utilisation d'un module d'éclairage
 - └── Borne "NO" (Normal. Ouvert) --> [ Borne "DI1"]
 
 # Transmetteur GP4-WLTE:
-- Paramétrez la SIM pour ne pas avoir de code SIM!!!! (j'ai utilisé un ancien iPad afin de supprimer le coee PIN).
+- Paramétrez la SIM pour ne pas avoir de code PIM !! j'ai utilisé un ancien iPad afin de supprimer le code PIN.
 - Insérer la SIM au format Micro dans le transmetteur (attention la plupart des SIM actuelles sont au format Nano!). Le signal GSM est OK lorsque lorsque la led rouge clignote lentement.
-- Envoyez un SMS depuis votre portable vers le numéro de la carte SIM du transmetteur et tapez: SN0000RPO. Vous receverez alors une confirmation que votre numéroe de mobil est enregistré dans le transmetteur pour les entrées digitales. Vous pouvez ajouter jusqu'à 4 numéros en procédans de la même manieère avec d'autre ligne mobiles qui reçevrons les alertes d'alarmes.
+- Envoyez un SMS depuis votre portable vers le numéro de la carte SIM du transmetteur et tapez: SN0000RPO. Vous recevrez quelques minutes plus tard une confirmation par SMS que votre numéro de mobile est enregistré dans le transmetteur pour les entrées digitales. Vous pouvez ajouter jusqu'à 4 numéros en procédant de la même manieère avec d'autre ligne mobiles qui recevrons les alertes d'alarmes.
 
 # Paramétrage de l'application WLTE Control:
 - Téléchargez l'application dans le store Apple ou Android.
 - Allez dans "Setting" puis "Device Control": Faites un appui long sur "Channel1" puis changez le nom du Channel (par example: Alarme_Somfy), changez le nom de l'input (par example: Alarme_Maison).
-- Allez dans "Setting" puis "Input Control": Cliquez sur "Alarme_Maison1", sélectionnez "Connected" et cochez le bouton en haut à droite afin qu'il soit vert.
+- Allez dans "Setting" puis "Input Control": Cliquez sur "Alarme_Maison1", sélectionez "Connected" et cochez le bouton en haut à droite afin qu'il soit vert.
 
 Dans le menu "Input Control" vous devez voir "Alarme_Maison1 (Connected) Activate push".  
 - Manuel et spécifications du transmetteur: https://manuals.plus/ae/1005002484411405
@@ -65,6 +65,6 @@ Dans le menu "Input Control" vous devez voir "Alarme_Maison1 (Connected) Activat
 # Résultat:
 - Dès que l'alarme se déclenche, le signal de la led s'active, fait coller le relais XY-J02 en mode P1.1 pendant 30 secondes, ce qui ferme le
 contact sec du transmetteur 4G et déclenche l'envoi immédiat du SMS d'alerte sur votre téléphone, le tout de manière parfaitement stable.  
-- Contactez-moi si besoin: protexiom600@free.fr
+- Contactez moi si besoin: protexiom600@free.fr
 
 Somfy Protexiom 600 / arrêt du réseau 2G / remplacement GSM 4G / transmetteur GSM / migration 2G vers 4G / solution alternative Somfy
