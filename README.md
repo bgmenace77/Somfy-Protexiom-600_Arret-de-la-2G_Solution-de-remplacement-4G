@@ -34,7 +34,7 @@ Précision importante: Si vous optez pour l'utilisation d'un module d'éclairage
 - Manuel et spécifications du relais temporisé: https://ja-bots.com/wp-content/uploads/2022/06/XY-J02.pdf
 
 # <Schéma de principe>
-1. ALIMENTATION DU RELAIS (XY-J02):
+### 1. ALIMENTATION DU RELAIS (XY-J02):
  [ Alimentation 12V Externe ]
 
 ├── (+) ------------------------> [ Borne "Input +" (XY-J02) ]
