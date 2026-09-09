@@ -5,10 +5,9 @@ Je précise que j'utilise un carte SIM Free et non un service payant comme 123-S
 Ce tuto s'adresse aux possesseurs d'une alarme protection 600 avec module 2G, car dans l'onglet "Réglages téléphonie filaire" le menu 123-SMS est absent. il faut être un peu bricoleur.
 
 Matériel utilisé:
-
-Une centrale d'alarme Somfy Protexiom 600
-Un module relais temporisé XY-J02 (disponible sur Amazon: https://www.amazon.fr/temporis%C3%A9-d%C3%A9clencheur-interrupteur-temporisation-minutes/dp/B0FS6C89GJ?th=1)
-Un transmetteur 4G autonome à déclenchement sec GP4-WLTE avec carte SIM (Choisir la version GP4-WLTE-EC sur Aliexpress: https://fr.aliexpress.com/item/1005006284883131.html?gatewayAdapt=glo2fra#nav-specification)
+- Une centrale d'alarme Somfy Protexiom 600
+- Un module relais temporisé XY-J02 (disponible sur Amazon: https://www.amazon.fr/temporis%C3%A9-d%C3%A9clencheur-interrupteur-temporisation-minutes/dp/B0FS6C89GJ?th=1)
+- Un transmetteur 4G autonome à déclenchement sec GP4-WLTE avec carte SIM (Choisir la version GP4-WLTE-EC sur Aliexpress: https://fr.aliexpress.com/item/1005006284883131.html?gatewayAdapt=glo2fra#nav-specification)
 
 Principe du montage:
 
