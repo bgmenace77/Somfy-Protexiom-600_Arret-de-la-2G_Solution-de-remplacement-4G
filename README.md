@@ -34,19 +34,19 @@ Précision importante: Si vous optez pour l'utilisation d'un module d'éclairage
 
 # Schéma de principe:
 1. ALIMENTATION DU RELAIS (XY-J02)
-[ Alimentation 12V Externe ]
- ├── (+) ------------------------> [ Borne "Input +" (XY-J02) ]
- └── (-) ------------------------> [ Borne "Input -" (XY-J02) ]
+- [ Alimentation 12V Externe ]
+- ├── (+) ------------------------> [ Borne "Input +" (XY-J02) ]
+- └── (-) ------------------------> [ Borne "Input -" (XY-J02) ]
 
 2. SIGNAL DE DÉCLENCHEMENT (Source d'alerte vers Relais)
-[Sirène Extérieure (LED) OU Module d'éclairage RTS (2401161)]
- ├── Fil Rouge (Signal) ---------> [ Borne "Trigger signal" (XY-J02) ]
- └── Fil Noir (Masse / GND) -----> [ Borne "GND trigger" (XY-J02) ]
+- [Sirène Extérieure (LED) OU Module d'éclairage RTS (2401161)]
+- ├── Fil Rouge (Signal) ---------> [ Borne "Trigger signal" (XY-J02) ]
+- └── Fil Noir (Masse / GND) -----> [ Borne "GND trigger" (XY-J02) ]
 
 3. SORTIE CONTACT SEC (Relais vers Transmetteur 4G GP4-WLTE)
-[ Module Relais XY-J02 ]
- ├── Borne "COM" (Commun) -------> [ Borne "GND" (Transmetteur 4G) ]
- └── Borne "NO" (Normal. Ouvert) -> [ Borne "DI1" (Transmetteur 4G) ]
+- [ Module Relais XY-J02 ]
+- ├── Borne "COM" (Commun) -------> [ Borne "GND" (Transmetteur 4G) ]
+- └── Borne "NO" (Normal. Ouvert) -> [ Borne "DI1" (Transmetteur 4G) ]
 
 # Transmetteur GP4-WLTE:
 - Paramétrez la SIM pour ne pas avoir de code SIM!!!! (j'ai utilisé un ancien iPad afin de supprimer le coee PIN).
