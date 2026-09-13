@@ -1,4 +1,4 @@
-# Somfy Protexiom 600 : comment remplacer la transmission GSM 2G après l'arrêt du réseau
+# Somfy Protexiom 600 : Comment remplacer la transmission GSM 2G après l'arrêt du réseau
 
 Tutoriel pour contourner l'arrêt de la 2G sur Somfy Protexiom grace à un module relais et un transmetteur 4G:
 
