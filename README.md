@@ -16,10 +16,10 @@ Il faut être un peu bricoleur.
 
 ## Principe de montage:  
 La centrale n'ayant pas de sortie "rapport transmetteur" accessible directement sur sa carte principale, il faut récupérer l'information d'alerte en amont via l'un de ces deux moyens:
-- Exploiter la LED de la sirène extérieure en récupérant le signal directement sur son circuit de commande. Il faudra installer la sirène au sec car le transmetteur sera placé à coté et alimenté par du courant continu via le transformateur fournit.
+- Exploiter la LED de la sirène extérieure en récupérant le signal directement sur son circuit de commande. Il faudra installer la sirène au sec car le transmetteur sera placé à coté et alimenté par du courant continu via le transformateur fournit. J'ai opté pour cette solution.
 - Utiliser un module d'éclairage RTS.
-Précision importante: Si vous optez pour l'utilisation d'un module d'éclairage, cela ne transmettra sur votre module 4G que les alarmes liées à l'intrusion (ce qui reste l'usage principal recherché).
-- Dans mon cas j'ai acheté une sirène extérieure dont j'ai déconnecté la sirène et la led.
+Précision importante: Si vous optez pour l'utilisation d'un module d'éclairage, cela ne transmettra que les alarmes liées à l'intrusion vers votre module 4G (ce qui reste l'usage principal recherché).
+
 
 # Détails des branchements
 ## Relais XY-J02 et transmetteur 4G:
