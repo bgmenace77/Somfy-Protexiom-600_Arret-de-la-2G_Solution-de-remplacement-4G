@@ -21,7 +21,7 @@ Pour les possesseurs d'une alarme Protexiom 600 équipée du module RTC, vous po
 - Un module relais temporisé "XY-J02". Disponible sur Amazon: https://www.amazon.fr/temporis%C3%A9-d%C3%A9clencheur-interrupteur-temporisation-minutes/dp/B0FS6C89GJ?th=1)
 - Un transmetteur 4G autonome à déclenchement sec "GP4-WLTE avec carte SIM et batterie des secours". Choisir la version "GP4-WLTE-EC" sur Aliexpress: https://fr.aliexpress.com/item/1005006284883131.html?gatewayAdapt=glo2fra#nav-specification). Cette version est compatible pour l'Europe et possède une batterie de secours.
 
-# Alternative
+# Alternative à la sirène extérieure
 - Module d'éclairage RTS 2401161 (au lien de la sirène extérieure): https://boutique.somfy.fr/micro-module-pour-eclairage.html?)utm_source=bing&utm_medium=cpc_shopping&utm_campaign_id=18844935816&utm_campaign=fr_b2c_conv_allproducts&utm_source=bing&utm_medium=cpc_shopping&utm_campaign_id=494187834&utm_campaign=fr_b2c_conv_allproducts&utm_content=
 - Relais d'interface 230V avec contacts secs en sortie du type Schneider: (https://www.se.com/fr/fr/product/A9C22712/acti9-ict-contacteur-auxiliarisable-2p-16a-2no-230-240vca-50hz
 - Dans ce cas plus besoin du relais XY-J02
