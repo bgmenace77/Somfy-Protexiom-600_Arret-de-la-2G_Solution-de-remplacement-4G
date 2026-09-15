@@ -77,7 +77,7 @@ La centrale n'ayant pas de sortie "rapport transmetteur" accessible directement 
 
 OU [Module d'éclairage RTS 2401161]
 
-├── Phase Sortie 230V (▼) ---------------> [Borne A1 (Schneider A9C22712)]
+├── Phase Sortie 230V (▼) -------------> [Borne A1 (Schneider A9C22712)]
 
 └── Neutre (N)------------------------> [Borne A2 (Schneider A9C22712)]
 
@@ -90,9 +90,9 @@ OU [Module d'éclairage RTS 2401161]
 
 OU [Contacteur Schneider A9C22712 ------> Transmetteur 4G GP4-WLTE]
 
-├── Borne 1 (Contact NO) ─────────────► [Borne "GND"] du Transmetteur 4G
+├── Borne 1 (Contact NO) ------------> [Borne "GND"] du Transmetteur 4G
 
-└── Borne 2 (Contact NO) ─────────────► [Borne "DI1"] du Transmetteur 4G
+└── Borne 2 (Contact NO) ------------> [Borne "DI1"] du Transmetteur 4G
 
 ## Paramétarge du transmetteur GP4-WLTE:
 - Paramétrez la SIM pour ne pas avoir de code PIM !! j'ai utilisé un ancien iPad afin de supprimer le code PIN.
