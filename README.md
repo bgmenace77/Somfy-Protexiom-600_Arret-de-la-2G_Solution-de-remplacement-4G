@@ -37,7 +37,7 @@ La centrale n'ayant pas de sortie "rapport transmetteur" accessible directement 
 - Mode de fonctionnement: Choisir le mode P1.1 (le relais s'active sur impulsion pendant le temps défini et ignore les déclenchements répétés tant qu'il est actif, évitant les coupures intempestives).
 - Temporisation (Paramètre OP): Régler sur 030. (soit 30 secondes). Pourquoi 30 secondes? Cela permet de compenser parfaitement le décalage habituel (notamment le délai d'environ 15 secondes entre le déclenchement de la centrale et l'activation de la sirène extérieure), tout en garantissant un contact sec assez long pour que le transmetteur 4G ait le temps d'envoyer le SMS d'alerte.
 
-- Manuel et spécifications du relais temporisé: https://ja-bots.com/wp-content/uploads/2022/06/XY-J02.pdf
+### Manuel et spécifications du relais temporisé: https://ja-bots.com/wp-content/uploads/2022/06/XY-J02.pdf
 
 # Schéma de principe
 ##### 1. ALIMENTATION DU RELAIS (XY-J02):
@@ -72,7 +72,7 @@ La centrale n'ayant pas de sortie "rapport transmetteur" accessible directement 
 - Allez dans "Setting" puis "Input Control": Cliquez sur "Alarme_Maison1", sélectionnez "Connected" et cochez le bouton en haut à droite afin qu'il soit vert.
 
 Dans le menu "Input Control" vous devez voir "Alarme_Maison1 (Connected) Activate push".  
-- Manuel et spécifications du transmetteur 4G: https://manuals.plus/ae/1005002484411405
+### Manuel et spécifications du transmetteur 4G: https://manuals.plus/ae/1005002484411405
 
 # Résultat
 - Dès que l'alarme se déclenche, le signal de la led s'active, fait coller le relais XY-J02 en mode P1.1 pendant 30 secondes, ce qui ferme le
