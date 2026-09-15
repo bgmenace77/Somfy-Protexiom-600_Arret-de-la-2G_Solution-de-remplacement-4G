@@ -81,7 +81,7 @@ OU [Module d'éclairage RTS 2401161]
 
 └── Neutre (N)------------------------> [Borne A2 (Schneider A9C22712)]
 
-##### 3. SORTIE CONTACT SEC (Relais vers Transmetteur 4G GP4-WLTE):
+##### 3. SORTIE DU SIGNAL RELAIS ou CONTACTEUR (Relais/Contacteur vers Transmetteur 4G GP4-WLTE):
 [Module Relais XY-J02  --------------->  Transmetteur 4G GP4-WLTE]
 
 ├── Borne "COM" (Commun) -------> [Borne "GND"] du Transmetteur 4G
