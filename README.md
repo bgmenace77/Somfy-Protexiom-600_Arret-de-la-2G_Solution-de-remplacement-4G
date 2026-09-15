@@ -66,9 +66,9 @@ La centrale n'ayant pas de sortie "rapport transmetteur" accessible directement 
 
 OU [Module d'éclairage RTS 2401161]
 
-├── Phase (Sortie 230V) ─────────────► [ Borne A1 ]
+├── Phase (Sortie 230V) ---------------> [ Borne A1 ]
 
-└── Neutre ──────────────────────────► [ Borne A2 ]
+└── Neutre ------------------------> [ Borne A2 ]
 
 ##### 3. SORTIE CONTACT SEC (Relais XY J02 vers Transmetteur 4G GP4-WLTE):
 [Module Relais XY-J02  --------------->  Transmetteur 4G GP4-WLTE]
