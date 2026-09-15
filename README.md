@@ -1,6 +1,6 @@
 # Somfy Protexiom 600 : Comment remplacer la transmission GSM 2G après l'arrêt du réseau
 
-## Tutoriel pour contourner l'arrêt de la 2G sur Somfy Protexiom grace à un module relais et un transmetteur 4G:
+## Tutoriel pour contourner l'arrêt de la 2G sur Somfy Protexiom, grace à un module relais et un transmetteur 4G:
 
 Face à l'arrêt progressif des réseaux 2G qui rend les transmetteurs d'origine obsolètes et génère l'alerte « Pas de réseau » sur l'application, voici comment j'ai mis en place un système de secours autonome par SMS à moindre coût, en récupérant l'information d'alarme.
 Je précise que j'utilise un carte SIM Free et non un service payant comme 123-SMS.Net.
@@ -10,7 +10,7 @@ Ce tuto s'adresse aux possesseurs d'une alarme protection 600 avec module 2G, ca
 Il faut être un peu bricoleur.
 
 # Matériel utilisé
-- Une centrale d'alarme Somfy Protexiom 600
+- Une sirène extérieure RTS pour Somfy Protexiom 600 (alternative: module d'éclairage RTS)
 - Un module relais temporisé "XY-J02". Disponible sur Amazon: https://www.amazon.fr/temporis%C3%A9-d%C3%A9clencheur-interrupteur-temporisation-minutes/dp/B0FS6C89GJ?th=1)
 - Un transmetteur 4G autonome à déclenchement sec "GP4-WLTE avec carte SIM". Choisir la version "GP4-WLTE-EC" sur Aliexpress: https://fr.aliexpress.com/item/1005006284883131.html?gatewayAdapt=glo2fra#nav-specification). Cette version est compatible pour l'Europe et possède une batterie de secours.
 
