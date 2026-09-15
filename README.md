@@ -61,12 +61,12 @@ La centrale n'ayant pas de sortie "rapport transmetteur" accessible directement 
 
 └── (-) -------------------------> [Borne "Input -" (XY-J02)]
 
-##### 1.1 OU ALIMENTATION DU MODULE D'ECLAIRAGE
+##### 1.1 OU ALIMENTATION DU MODULE D'ECLAIRAGE RTS
 [Alimentation 230V externe]
  
-├── (+) 230V ------------------------> [Borne "L" (Module d'éclairage]
+├── (+) 230V ------------------------> [Borne "L" (Module d'éclairage RTS]
 
-└── (-) 230V -------------------------> [Borne "N" (Module d'éclairage] 
+└── (-) 230V -------------------------> [Borne "N" (Module d'éclairage RTS] 
 
 ##### 2. SIGNAL DE DÉCLENCHEMENT (Source d'alerte vers Relais ou Contacteur):
 [Sirène Extérieure (LED)]
