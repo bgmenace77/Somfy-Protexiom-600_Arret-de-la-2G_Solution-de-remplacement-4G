@@ -10,14 +10,15 @@ Ce tuto s'adresse aux possesseurs d'une alarme protection 600 avec module 2G, ca
 Il faut être un peu bricoleur.
 
 # Matériel utilisé
-- Une sirène extérieure RTS pour Somfy Protexiom 600 (alternative: module d'éclairage RTS)
+- Une sirène extérieure RTS pour Somfy Protexiom 600 (https://www.domo-confort.com/sir-ne-ext-rieure-avec-flash-alarme-protexial-protexiom-rts-somfy-remplac-par-la-ref-sy2400935-sy1875068.html).
+  Alternative: module d'éclairage RTS 2401161 (https://boutique.somfy.fr/micro-module-pour-eclairage.html?utm_source=bing&utm_medium=cpc_shopping&utm_campaign_id=18844935816&utm_campaign=fr_b2c_conv_allproducts&utm_source=bing&utm_medium=cpc_shopping&utm_campaign_id=494187834&utm_campaign=fr_b2c_conv_allproducts&utm_content=)
 - Un module relais temporisé "XY-J02". Disponible sur Amazon: https://www.amazon.fr/temporis%C3%A9-d%C3%A9clencheur-interrupteur-temporisation-minutes/dp/B0FS6C89GJ?th=1)
 - Un transmetteur 4G autonome à déclenchement sec "GP4-WLTE avec carte SIM". Choisir la version "GP4-WLTE-EC" sur Aliexpress: https://fr.aliexpress.com/item/1005006284883131.html?gatewayAdapt=glo2fra#nav-specification). Cette version est compatible pour l'Europe et possède une batterie de secours.
 
 ## Principe de montage:  
 La centrale n'ayant pas de sortie "rapport transmetteur" accessible directement sur sa carte principale, il faut récupérer l'information d'alerte en amont via l'un de ces deux moyens:
 - Soit exploiter la LED d'une sirène extérieure en récupérant le signal directement sur son circuit de commande. Il faudra installer la sirène au sec car le transmetteur sera placé à coté et alimenté par du courant continu via le transformateur fournit.
-- Soit utiliser un module d'éclairage RTS (référence principale : micro-module ON/OFF Somfy 2401161, également listé sous la référence fabricant ⁠SO2401161⁠).
+- Soit utiliser un module d'éclairage RTS.
 Précision importante: Si vous optez pour l'utilisation d'un module d'éclairage, cela ne transmettra sur votre module 4G que les alarmes liées à l'intrusion (ce qui reste l'usage principal recherché).
 - Dans mon cas j'ai acheté une sirène extérieure dont j'ai déconnecté la sirène et la led.
 
