@@ -68,7 +68,7 @@ La centrale n'ayant pas de sortie "rapport transmetteur" accessible directement 
 
 └── (-) 230V -------------------------> [Borne "N" (Module d'éclairage] 
 
-##### 2. SIGNAL DE DÉCLENCHEMENT (Source d'alerte vers Relais):
+##### 2. SIGNAL DE DÉCLENCHEMENT (Source d'alerte vers Relais ou Contacteur):
 [Sirène Extérieure (LED)]
 
 ├── Fil Rouge (Signal) -----------> [Borne "Trigger signal" (XY-J02)]
