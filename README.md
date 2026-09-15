@@ -23,7 +23,7 @@ Pour les possesseurs d'une alarme Protexiom 600 équipée du module RTC, vous po
 
 # Alternative à la sirène extérieure
 - Module d'éclairage RTS 2401161 (au lieu de la sirène extérieure): https://boutique.somfy.fr/micro-module-pour-eclairage.html?)utm_source=bing&utm_medium=cpc_shopping&utm_campaign_id=18844935816&utm_campaign=fr_b2c_conv_allproducts&utm_source=bing&utm_medium=cpc_shopping&utm_campaign_id=494187834&utm_campaign=fr_b2c_conv_allproducts&utm_content=
-- Relais d'interface 230V avec contacts secs en sortie du type Schneider: https://www.se.com/fr/fr/product/A9C22711/acti9-ict-contacteur-auxiliarisable-1p-16a-1no-230-240vca-50hz/
+- Relais d'interface 230V du type Schneider A9C22711: https://www.se.com/fr/fr/product/A9C22711/acti9-ict-contacteur-auxiliarisable-1p-16a-1no-230-240vca-50hz/
 - Dans ce cas, plus besoin du relais XY-J02
 
 ## Principe de montage:  
@@ -48,12 +48,10 @@ La centrale n'ayant pas de sortie "rapport transmetteur" accessible directement 
 
 ## OU Module d'éclairage RTS, Contacteur Schneider et transmetteur 4G:
 - Reliez une source d'alimentation 230V aux bornes "L" et "N" du module d'éclairage.
-- Reliez le signal du module d'éclairage vers le contacteur Schneider): Connectez un fil entre la borne "▼" du module d'éclairage et la borne "A1" du contacteur Schneider, et un autre fil entre la borne "N" du module d'éclairage et la borne "A2" du contacteur Scheneider.
-- 
-- Reliez la sortie sans potentiel (contact sec) du relais vers le transmetteur 4G: Utilisez 2 fils pour connecter la borne "COM" du relais sur le "GND" du transmetteur (au niveau des entrées digitales) et la borne "NO" (Normalement Ouvert) du relais sur l'entrée DI1 du transmetteur.
+- Reliez le signal du module d'éclairage vers le contacteur Schneider: Utilisez 2 fils pour connecter la borne "▼" du module d'éclairage sur la borne "A1" du contacteur Schneider, et la borne "N" du module d'éclairage sur la borne "A2" du contacteur Scheneider.
+- Reliez les bornes de sortie du contacteur Scneider vers le transmetteur 4G: Utilisez 2 fils pour connecter la borne "1" du relais sur le "GND" du transmetteur (au niveau des entrées digitales) et la borne "2" (Normalement Ouvert) du relais sur l'entrée DI1 du transmetteur.
 
-
-https://service.somfy.com/downloads/fr_v5/noticemicro_module_eclairage.pdf
+### Manuel et spécifications du module d'éclairage RTS: https://service.somfy.com/downloads/fr_v5/noticemicro_module_eclairage.pdf
 
 # Schéma de principe
 ##### 1.0 ALIMENTATION DU RELAIS XY-J02
@@ -92,9 +90,9 @@ OU [Module d'éclairage RTS 2401161]
 
 OU [Contacteur Schneider A9C22712 ------> Transmetteur 4G GP4-WLTE]
 
-├── Pôle 1 (Contact NO) ─────────────► [Borne "GND"] du Transmetteur 4G
+├── Borne 1 (Contact NO) ─────────────► [Borne "GND"] du Transmetteur 4G
 
-└── Pôle 2 (Contact NO) ─────────────► [Borne "DI1"] du Transmetteur 4G
+└── Borne 2 (Contact NO) ─────────────► [Borne "DI1"] du Transmetteur 4G
 
 ## Paramétarge du transmetteur GP4-WLTE:
 - Paramétrez la SIM pour ne pas avoir de code PIM !! j'ai utilisé un ancien iPad afin de supprimer le code PIN.
