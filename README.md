@@ -61,7 +61,7 @@ La centrale n'ayant pas de sortie "rapport transmetteur" accessible directement 
 
 └── (-) -------------------------> [Borne "Input -" (XY-J02)]
 
-##### 1.1 ALIMENTATION DU MODULE D'ECLAIRAGE
+##### 1.1 OU ALIMENTATION DU MODULE D'ECLAIRAGE
 [Si vous utilisez le signal du module d'éclairage 230V]
  
 ├── (+) 230V ------------------------> [Borne "L" (Module d'éclairage]
