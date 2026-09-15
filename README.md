@@ -36,7 +36,7 @@ La centrale n'ayant pas de sortie "rapport transmetteur" accessible directement 
   Paramètres à appliquer pour configurer le relais XY-J02:
 - Mode de fonctionnement: Choisir le mode P1.1 (le relais s'active sur impulsion pendant le temps défini et ignore les déclenchements répétés tant qu'il est actif, évitant les coupures intempestives).
 - Temporisation (Paramètre OP): Réglez sur 030. (soit 30 secondes*). Pourquoi 30 secondes? Cela permet de compenser parfaitement le décalage habituel (notamment le délai d'environ 15 secondes entre le déclenchement de la centrale et l'activation de la sirène extérieure), tout en garantissant un contact sec assez long pour que le transmetteur 4G ait le temps d'envoyer le SMS d'alerte.
-#### Attention l'emplacement du point après le chiffre 0 est très important => Voir le manuel pour déplacer le point.
+##### Attention: l'emplacement du point après le chiffre 0 est très important => Voir le manuel pour déplacer le point.
 
 ### Manuel et spécifications du relais temporisé: https://ja-bots.com/wp-content/uploads/2022/06/XY-J02.pdf
 
