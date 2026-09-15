@@ -5,12 +5,12 @@
 Face à l'arrêt progressif du réseau 2G, qui rend le transmetteur GSM Somfy obsolète et génère l'alerte système « Perte réseau GSM », voici comment mettre en place un système de secours autonome par SMS à moindre coût, en récupérant les informations d'alarmes. Cette solution nécessite une carte SIM 4G. 
 
 Ce tuto s'adresse aux possesseurs d'une alarme Somfy Protexiom 600 équipée du module GSM 2G. Pour les possesseurs d'une alarme Protexiom 600 équipée du module RTC, vous pouvez:
-- soit aller dans le menu "Réglages téléphonie filaire" (si présent) et utiliser l'envoi de SMS via le service payant 123-SMS (https://www.123-sms.net)
-- soit suivre ce tuto.
+- Soit aller dans le menu "Réglages téléphonie filaire" (si présent) et utiliser l'envoi de SMS via le service payant 123-SMS (https://www.123-sms.net)
+- Soit suivre ce tuto.
 - Avanatages: La solution d'envoi de SMS via un site internet intermédiaire permet de garder le détail des alarmes (pile faibles, éléments d'intrusion, éléments d'incenide, etc...). Cependant, en fonction de la versoin software de la carte de la centrale, le menu 123-SMS est parfois absent (ce qui est mon cas).
 - Désavantages: Il faut approvisionner un compteur de SMS sur le site 123-SMS. Le transmetteur 4G ne fournira que 2 indications: Alarmes et perte d'alimentation.
 
-Il faut être un peu bricoleur!
+Attention, il faut être un peu bricoleur si vous optez pour le transmetteur 4G!
 
 # Matériel utilisé
 - Une sirène extérieure RTS SY2400935: https://www.domo-confort.com/sir-ne-ext-rieure-avec-flash-alarme-protexial-protexiom-rts-somfy-remplac-par-la-ref-sy2400935-sy1875068.html ou module d'éclairage RTS 2401161: https://boutique.somfy.fr/micro-module-pour-eclairage.html?)utm_source=bing&utm_medium=cpc_shopping&utm_campaign_id=18844935816&utm_campaign=fr_b2c_conv_allproducts&utm_source=bing&utm_medium=cpc_shopping&utm_campaign_id=494187834&utm_campaign=fr_b2c_conv_allproducts&utm_content=
