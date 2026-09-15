@@ -2,7 +2,7 @@
 
 ## Tutoriel pour contourner l'arrêt de la 2G sur Somfy Protexiom:
 
-Face à l'arrêt progressif du réseau 2G, qui rend le transmetteur GSM Somfy obsolète et génère l'alerte « Pas de réseau » sur l'application, voici comment mettre en place un système de secours autonome par SMS à moindre coût, en récupérant les informations d'alarmes. Cette solution nécessite une carte SIM. 
+Face à l'arrêt progressif du réseau 2G, qui rend le transmetteur GSM Somfy obsolète et génère l'alerte système « Perte réseau GSM », voici comment mettre en place un système de secours autonome par SMS à moindre coût, en récupérant les informations d'alarmes. Cette solution nécessite une carte SIM. 
 
 Ce tuto s'adresse aux possesseurs d'une alarme Somfy Protexiom 600 équipée du module GSM 2G. Pour les possesseurs d'une alarme Protexiom 600 équipée du module RTC, vous pouvez aller dans le menu "Réglages téléphonie filaire" (si présent) et utiliser l'envoi de SMS via le service payant 123-SMS (https://www.123-sms.net)
 
@@ -69,7 +69,7 @@ Dans le menu "Input Control" vous devez voir "Alarme_Maison1 (Connected) Activat
 # Résultat
 - Dès que l'alarme se déclenche, le signal de la led s'active, fait coller le relais XY-J02 en mode P1.1 pendant 30 secondes, ce qui ferme le
 contact sec du transmetteur 4G et déclenche l'envoi immédiat du SMS d'alerte sur votre/vos téléphone(s), le tout de manière parfaitement stable.
-- Pour ne plus avoir d'alerte du système, enlever le module GSM de la centrale
+- Afin de ne plus avoir d'alerte système "perte réseau GSM", il faut enlever le module GSM de la centrale. Je conseille de débrancher l'alimentation secteur de la centrale ainsi que d'enlever 1 pile avant de retirer le module GSM. Le module est fixé avec 2 vis qu'il faut dévisser. Ensuite il faut tirer délicatement le module, sachant qu'il est maintenu sur la gauche de la carte de la centrale via un petit port.   
 - Contactez moi si besoin: protexiom600@free.fr
 
 Somfy Protexiom 600 / arrêt du réseau 2G / remplacement GSM 4G / transmetteur GSM / migration 2G vers 4G / solution alternative Somfy
