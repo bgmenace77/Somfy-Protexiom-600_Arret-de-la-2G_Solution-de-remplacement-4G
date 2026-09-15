@@ -2,7 +2,7 @@
 
 ## Tutoriel pour contourner l'arrêt de la 2G sur Somfy Protexiom:
 
-Face à l'arrêt progressif du réseau 2G, qui rend le transmetteur GSM Somfy obsolète et génère l'alerte système « Perte réseau GSM », voici comment mettre en place un système de secours autonome par SMS à moindre coût, en récupérant les informations d'alarmes. Cette solution nécessite une carte SIM. 
+Face à l'arrêt progressif du réseau 2G, qui rend le transmetteur GSM Somfy obsolète et génère l'alerte système « Perte réseau GSM », voici comment mettre en place un système de secours autonome par SMS à moindre coût, en récupérant les informations d'alarmes. Cette solution nécessite une carte SIM 4G. 
 
 Ce tuto s'adresse aux possesseurs d'une alarme Somfy Protexiom 600 équipée du module GSM 2G. Pour les possesseurs d'une alarme Protexiom 600 équipée du module RTC, vous pouvez aller dans le menu "Réglages téléphonie filaire" (si présent) et utiliser l'envoi de SMS via le service payant 123-SMS (https://www.123-sms.net)
 
