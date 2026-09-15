@@ -46,8 +46,12 @@ La centrale n'ayant pas de sortie "rapport transmetteur" accessible directement 
 
 ### Manuel et spécifications du relais temporisé: https://ja-bots.com/wp-content/uploads/2022/06/XY-J02.pdf
 
-## Relais  et transmetteur 4G:
+## Contacteur Schneider et transmetteur 4G:
 
+
+
+
+https://service.somfy.com/downloads/fr_v5/noticemicro_module_eclairage.pdf
 
 # Schéma de principe
 ##### 1. ALIMENTATION DU RELAIS XY-J02
@@ -56,6 +60,13 @@ La centrale n'ayant pas de sortie "rapport transmetteur" accessible directement 
 ├── (+) ------------------------> [Borne "Input +" (XY-J02)]
 
 └── (-) -------------------------> [Borne "Input -" (XY-J02)]
+
+##### ALIMENTATION DU MODULE D'ECLAIRAGE
+[Si vous utilisez le signal du module d'éclairage 230V]
+ 
+├── (+) 230V ------------------------> [Borne "L" (Module d'éclairage]
+
+└── (-) 230V -------------------------> [Borne "N" (Module d'éclairage] 
 
 ##### 2. SIGNAL DE DÉCLENCHEMENT (Source d'alerte vers Relais):
 [Sirène Extérieure (LED)]
@@ -66,9 +77,9 @@ La centrale n'ayant pas de sortie "rapport transmetteur" accessible directement 
 
 OU [Module d'éclairage RTS 2401161]
 
-├── Phase Sortie 230V (Module d'éclairage) ---------------> [Borne A1 (Schneider A9C22712)]
+├── Phase Sortie 230V (Triangle vers le bas) ---------------> [Borne A1 (Schneider A9C22712)]
 
-└── Neutre (Module d'éclairage)------------------------> [Borne A2 (Schneider A9C22712)]
+└── Neutre (N)------------------------> [Borne A2 (Schneider A9C22712)]
 
 ##### 3. SORTIE CONTACT SEC (Relais vers Transmetteur 4G GP4-WLTE):
 [Module Relais XY-J02  --------------->  Transmetteur 4G GP4-WLTE]
