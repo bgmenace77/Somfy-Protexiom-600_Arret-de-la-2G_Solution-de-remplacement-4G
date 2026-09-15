@@ -49,7 +49,7 @@ La centrale n'ayant pas de sortie "rapport transmetteur" accessible directement 
 ## OU Module d'éclairage RTS, Contacteur Schneider et transmetteur 4G:
 - Reliez une source d'alimentation 230V aux bornes "L" et "N" du module d'éclairage.
 - Reliez le signal du module d'éclairage vers le contacteur Schneider: Utilisez 2 fils pour connecter la borne "▼" du module d'éclairage sur la borne "A1" du contacteur Schneider, et la borne "N" du module d'éclairage sur la borne "A2" du contacteur Scheneider.
-- Reliez les bornes de sortie du contacteur Scneider vers le transmetteur 4G: Utilisez 2 fils pour connecter la borne "1" du relais sur le "GND" du transmetteur (au niveau des entrées digitales) et la borne "2" (Normalement Ouvert) du relais sur l'entrée DI1 du transmetteur.
+- Reliez les bornes de sortie du contacteur Schneider vers le transmetteur 4G: Utilisez 2 fils pour connecter la borne "1" (Normalement Ouvert) du contacteur Schneider sur le "GND" du transmetteur (au niveau des entrées digitales) et la borne "2" (Normalement Ouvert) du contacteur Schneider sur l'entrée DI1 du transmetteur.
 
 ### Manuel et spécifications du module d'éclairage RTS: https://service.somfy.com/downloads/fr_v5/noticemicro_module_eclairage.pdf
 
