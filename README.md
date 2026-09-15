@@ -46,22 +46,24 @@ La centrale n'ayant pas de sortie "rapport transmetteur" accessible directement 
 
 ### Manuel et spécifications du relais temporisé: https://ja-bots.com/wp-content/uploads/2022/06/XY-J02.pdf
 
-## Contacteur Schneider et transmetteur 4G:
-
-
+## OU Module d'éclairage RTS, Contacteur Schneider et transmetteur 4G:
+- Reliez une source d'alimentation 230V aux bornes "L" et "N" du module d'éclairage.
+- Reliez le signal du module d'éclairage vers le contacteur Schneider): Connectez un fil entre la borne "▼" du module d'éclairage et la borne "A1" du contacteur Schneider, et un autre fil entre la borne "N" du module d'éclairage et la borne "A2" du contacteur Scheneider.
+- 
+- Reliez la sortie sans potentiel (contact sec) du relais vers le transmetteur 4G: Utilisez 2 fils pour connecter la borne "COM" du relais sur le "GND" du transmetteur (au niveau des entrées digitales) et la borne "NO" (Normalement Ouvert) du relais sur l'entrée DI1 du transmetteur.
 
 
 https://service.somfy.com/downloads/fr_v5/noticemicro_module_eclairage.pdf
 
 # Schéma de principe
-##### 1. ALIMENTATION DU RELAIS XY-J02
+##### 1.0 ALIMENTATION DU RELAIS XY-J02
 [Alimentation 5V externe USB ou interne 6V]
 
 ├── (+) ------------------------> [Borne "Input +" (XY-J02)]
 
 └── (-) -------------------------> [Borne "Input -" (XY-J02)]
 
-##### ALIMENTATION DU MODULE D'ECLAIRAGE
+##### 1.1 ALIMENTATION DU MODULE D'ECLAIRAGE
 [Si vous utilisez le signal du module d'éclairage 230V]
  
 ├── (+) 230V ------------------------> [Borne "L" (Module d'éclairage]
@@ -77,7 +79,7 @@ https://service.somfy.com/downloads/fr_v5/noticemicro_module_eclairage.pdf
 
 OU [Module d'éclairage RTS 2401161]
 
-├── Phase Sortie 230V (Triangle vers le bas) ---------------> [Borne A1 (Schneider A9C22712)]
+├── Phase Sortie 230V (▼) ---------------> [Borne A1 (Schneider A9C22712)]
 
 └── Neutre (N)------------------------> [Borne A2 (Schneider A9C22712)]
 
