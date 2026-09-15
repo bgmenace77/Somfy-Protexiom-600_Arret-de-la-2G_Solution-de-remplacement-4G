@@ -52,25 +52,35 @@ La centrale n'ayant pas de sortie "rapport transmetteur" accessible directement 
 # Schéma de principe
 ##### 1. ALIMENTATION DU RELAIS XY-J02
 [Alimentation 5V externe USB ou interne 6V]
+
 ├── (+) ------------------------> [ Borne "Input +" (XY-J02) ]
+
 └── (-) -------------------------> [ Borne "Input -" (XY-J02) ]
 
 ##### 2. SIGNAL DE DÉCLENCHEMENT (Source d'alerte vers Relais):
 [Sirène Extérieure (LED)]
+
 ├── Fil Rouge (Signal) -----------> [ Borne "Trigger signal" (XY-J02) ]
+
 └── Fil Noir (Masse / GND) -----> [ Borne "GND-Trigger" (XY-J02) ]
 
 OU [Module d'éclairage RTS 2401161]
+
 ├── Phase (Sortie 230V) ─────────────► [ Borne A1 ]
+
 └── Neutre ──────────────────────────► [ Borne A2 ]
 
 ##### 3. SORTIE CONTACT SEC (Relais XY J02 vers Transmetteur 4G GP4-WLTE):
 [Module Relais XY-J02  --------------->  Transmetteur 4G GP4-WLTE]
+
 ├── Borne "COM" (Commun) -------> [ Borne "GND" ]
+
 └── Borne "NO" (Normal. Ouvert) --> [ Borne "DI1"]
 
 OU [Contacteur Schneider A9C22712 ------> Transmetteur 4G GP4-WLTE]
+
 ├── Pôle 1 (Contact NO) ─────────────► Raccordé au [ GND ] du Transmetteur 4G
+
 └── Pôle 2 (Contact NO) ─────────────► Raccordé à l'entrée [ DI1 ] du Transmetteur 4G
 
 ## Paramétarge du transmetteur GP4-WLTE:
