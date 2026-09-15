@@ -10,7 +10,7 @@ Ce tuto s'adresse aux possesseurs d'une alarme Somfy Protexiom 600 équipée du 
 - Avanatages: La solution d'envoi de SMS via un site internet intermédiaire permet de garder le détail des alarmes (pile faibles, éléments d'intrusion, éléments d'incenide, etc...). Cependant, en fonction de la versoin software de la carte de la centrale, le menu 123-SMS est parfois absent (ce qui est mon cas).
 - Désavantages: Il faut approvisionner un compteur de SMS sur le site 123-SMS. Le transmetteur 4G ne fournira que 2 indications: Alarmes et perte d'alimentation.
 
-Attention, il faut être un peu bricoleur si vous optez pour le transmetteur 4G!
+### Attention, il faut être un peu bricoleur si vous optez pour le transmetteur 4G!
 
 # Matériel utilisé
 - Une sirène extérieure RTS SY2400935: https://www.domo-confort.com/sir-ne-ext-rieure-avec-flash-alarme-protexial-protexiom-rts-somfy-remplac-par-la-ref-sy2400935-sy1875068.html ou module d'éclairage RTS 2401161: https://boutique.somfy.fr/micro-module-pour-eclairage.html?)utm_source=bing&utm_medium=cpc_shopping&utm_campaign_id=18844935816&utm_campaign=fr_b2c_conv_allproducts&utm_source=bing&utm_medium=cpc_shopping&utm_campaign_id=494187834&utm_campaign=fr_b2c_conv_allproducts&utm_content=
