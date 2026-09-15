@@ -6,9 +6,9 @@ Face à l'arrêt progressif du réseau 2G, qui rend le transmetteur GSM Somfy ob
 
 Ce tuto s'adresse aux possesseurs d'une alarme Somfy Protexiom 600 équipée du module GSM 2G.
 
-Pour les possesseurs d'une alarme Protexiom 600 équipée du module RTC, vous pouvez:
-- Soit aller dans le menu "Réglages téléphonie filaire" (si présent) et utiliser l'envoi de SMS via le service payant 123-SMS (https://www.123-sms.net)
-- Soit suivre ce tuto.
+Pour les possesseurs d'une alarme Protexiom 600 équipée du module RTC, vous pouvez soit:
+- Aller dans le menu "Réglages téléphonie filaire" (si présent) et utiliser l'envoi de SMS via le service payant 123-SMS (https://www.123-sms.net)
+- Suivre ce tuto.
 - Avanatages: La solution d'envoi de SMS via un site internet intermédiaire permet de garder le détail des alarmes (pile faibles, éléments d'intrusion, éléments d'incenide, etc...). Cependant, en fonction de la versoin software de la carte de la centrale, le menu 123-SMS est parfois absent (ce qui est mon cas).
 - Désavantages: Il faut approvisionner un compteur SMS sur le site 123-SMS. Le transmetteur 4G ne fournira que 2 indications: Alarmes et perte d'alimentation.
 
