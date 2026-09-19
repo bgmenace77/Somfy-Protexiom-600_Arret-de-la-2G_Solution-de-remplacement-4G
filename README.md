@@ -29,7 +29,7 @@ Pour les possesseurs d'une alarme Protexiom 600 équipée du module RTC, vous po
 ## Principe de montage:  
 La centrale n'ayant pas de sortie "rapport transmetteur" accessible directement sur sa carte principale, il faut récupérer l'information des alertes en amont via l'un de ces deux moyens:
 - Exploiter la LED de la sirène extérieure en récupérant le signal directement sur son circuit de commande. Il faudra installer la sirène au sec car le transmetteur sera placé à coté et alimenté par du courant continu via le transformateur fournit. J'ai opté pour cette solution car elle transmet les alarmes incendie et intrusion.
-- Utiliser un module d'éclairage RTS. Si vous optez pour l'utilisation du module d'éclairage RTS, vous transmettrez uniquement les alarmes d'intrusion vers le module 4G. pour cette solution il faudra également placer les éléments à l’intérieur au sec.
+- Utiliser un module d'éclairage RTS. Si vous optez pour l'utilisation du module d'éclairage RTS, vous transmettrez uniquement les alarmes d'intrusion vers le module 4G. Pour cette solution il faudra également placer les éléments à l’intérieur au sec.
 
 
 # Détails des branchements
