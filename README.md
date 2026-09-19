@@ -11,7 +11,7 @@ Pour les possesseurs d'une alarme Protexiom 600 équipée du module RTC, vous po
 - Suivre ce tuto.
 
 #### Pro's/Con's:
-- Avanatages: La solution d'envoi de SMS via un site internet intermédiaire permet de garder le détail des alarmes (pile faibles, éléments d'intrusion, éléments d'incenide, etc...). Cependant, en fonction de la versoin software de la carte de la centrale, le menu 123-SMS est parfois absent (ce qui est mon cas).
+- Avanatages: La solution d'envoi de SMS via un site internet intermédiaire permet de garder le détail des alarmes (pile faibles, éléments d'intrusion, éléments d'incendie, etc...). Cependant, en fonction de la versoin software de la carte de la centrale, le menu 123-SMS est parfois absent (ce qui est mon cas).
 - Désavantages: Il faut approvisionner un compteur SMS sur le site 123-SMS. Le transmetteur 4G ne fournira que 2 indications: Alarmes et perte d'alimentation.
 
 ### Attention: il faut être un peu bricoleur si vous optez pour le transmetteur 4G!
